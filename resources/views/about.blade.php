@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Tech Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="about.html" class="nav-logo">
+                <img src="profil.jpg" alt="Logo">
+                <span>Fathul Khair</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="skill.html"><i class="fas fa-brain"></i> Skills</a></li>
+                <li><a href="project.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="achievements.html"><i class="fas fa-award"></i> Achievements</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="chat.html"><i class="fas fa-comments"></i> Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="fade-in-up">
+        <div class="container">
+            <section class="row py-5 align-items-center">
+                <div class="col-lg-5 text-center mb-5 mb-lg-0">
+                    <div class="position-relative d-inline-block">
+                        <img src="profil.jpg" alt="Fathul Khair" class="profile-img-large">
+                        <div
+                            class="position-absolute bottom-0 end-0 p-3 m-3"
+                            style="background-color: #2ecc71 !important; border-radius: 50% !important; border: 2px solid var(--accent-blue) !important;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="display-3 fw-bold mb-4" style="letter-spacing: -2px;">Hello, I'm <span
+                            class="text-info">Khair.</span></h1>
+                    <p class="lead mb-4 opacity-75" style="font-size: 1.25rem;">Mahasiswa Teknik Informatika USU sekaligus
+                        Full-Stack Developer yang berfokus pada pembangunan solusi digital berdampak.</p>
+                    <div class="row g-4 mb-5 justify-content-center justify-content-lg-start">
+                        <div class="col-6 col-md-4 stat-item">
+                            <h4 data-bind="stats.exp">3+</h4>
+                            <p class="small text-secondary fw-medium">Tahun Pengalaman</p>
+                        </div>
+                        <div class="col-6 col-md-4 stat-item">
+                            <h4 data-bind="stats.projects">10+</h4>
+                            <p class="small text-secondary fw-medium">Proyek Selesai</p>
+                        </div>
+                        <div class="col-6 col-md-4 stat-item">
+                            <h4 data-bind="stats.awards">2+</h4>
+                            <p class="small text-secondary fw-medium">Penghargaan</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start mt-4">
+                        <a href="project.html" class="btn-neon">Lihat Proyek <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-outline-light rounded-pill px-4"
+                            style="padding-top: 12px; padding-bottom: 8px;">Unduh CV</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-6 fw-bold">Apa Yang Saya Lakukan</h2>
+                    <p class="text-secondary">Mengubah masalah kompleks menjadi solusi digital yang elegan.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="glass-card text-center h-100">
+                            <i class="fas fa-code fa-3x text-info mb-4"></i>
+                            <h4 class="mb-3">Web Development</h4>
+                            <p class="small opacity-75">Membangun website responsif menggunakan React, Node.js, dan
+                                standar
+                                modern lainnya.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="glass-card text-center h-100">
+                            <i class="fas fa-mobile-alt fa-3x text-purple mb-4"></i>
+                            <h4 class="mb-3">Mobile Apps</h4>
+                            <p class="small opacity-75">Membuat aplikasi lintas platform menggunakan Flutter dengan
+                                performa
+                                seperti native.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="glass-card text-center h-100">
+                            <i class="fas fa-layer-group fa-3x text-warning mb-4"></i>
+                            <h4 class="mb-3">UI/UX Design</h4>
+                            <p class="small opacity-75">Merancang antarmuka pengguna yang intuitif dan menarik secara
+                                visual
+                                untuk pengalaman terbaik.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Fathul Khair</h4>
+                <p>Mahasiswa Teknik Informatika USU & Full-Stack Developer yang berfokus pada solusi digital berdampak.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/edm.fhl.khair?igsh=MWphcG5teDdsb29sZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Khair222" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/fathul-khair-070091413" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Navigasi</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="project.html">Proyek</a></li>
+                    <li><a href="skill.html">Keahlian</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <p>Email: fathulkhair393@gmail.com</p>
+                <p>Lokasi: Medan, Indonesia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fathul Khair. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Premium Repair Modal (Extra Small version) -->
+    <div class="modal fade" id="repairModal" tabindex="-1" aria-labelledby="repairModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" style="max-width: 280px; margin: 0 auto;">
+            <div class="modal-content glass-card border-0"
+                style="background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); border-radius: 20px;">
+                <div class="modal-body text-center p-3">
+                    <div class="mb-2">
+                        <i class="fas fa-tools fa-2x text-warning mb-2 animate-bounce"></i>
+                    </div>
+                    <h5 class="fw-bold text-white mb-2" style="font-size: 1.1rem;">Pemberitahuan</h5>
+                    <p class="text-secondary mb-3" style="font-size: 0.85rem; line-height: 1.4;">Website sedang dalam tahap pengembangan desain baru.</p>
+                    <button type="button" class="btn-neon w-100 py-2" data-bs-dismiss="modal" style="font-size: 0.8rem; border-radius: 12px;">
+                        OKE <i class="fas fa-check-circle ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var repairModal = new bootstrap.Modal(document.getElementById('repairModal'));
+            setTimeout(() => {
+                repairModal.show();
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

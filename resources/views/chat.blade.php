@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Tech Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="about.html" class="nav-logo">
+                <img src="profil.jpg" alt="Logo">
+                <span>Fathul Khair</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="skill.html"><i class="fas fa-brain"></i> Skills</a></li>
+                <li><a href="project.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="achievements.html"><i class="fas fa-award"></i> Achievements</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="chat.html"><i class="fas fa-comments"></i> Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="fade-in-up">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="glass-card p-0 overflow-hidden shadow-2xl chat-container-mobile"
+                        style="height: 70vh; display: flex; flex-direction: column;">
+                        <!-- Chat Header -->
+                        <div class="p-3 border-bottom d-flex align-items-center justify-content-between"
+                            style="border-color: rgba(255,255,255,0.05) !important; background: rgba(0,0,0,0.15);">
+                            <div class="d-flex align-items-center">
+                                <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center me-3"
+                                    style="width: 45px; height: 45px;">
+                                    <i class="fas fa-robot text-black"></i>
+                                </div>
+                                <div>
+                                    <h5 class="m-0 text-white fw-bold">Asisten Virtual</h5>
+                                    <small class="text-success"><i class="fas fa-circle me-1"
+                                            style="font-size: 8px;"></i>Online</small>
+                                </div>
+                            </div>
+                            <span class="badge bg-transparent border-0 opacity-50 small d-none d-sm-inline">Community
+                                Chat</span>
+                        </div>
+
+                        <!-- Chat Messages -->
+                        <div class="chat-body p-4 flex-grow-1 overflow-auto" id="chat-messages"
+                            style="background: rgba(0,0,0,0.08);">
+                            <div class="d-flex mb-3">
+                                <img src="profil.jpg" class="rounded-circle me-3" alt="Avatar"
+                                    style="width: 35px; height: 35px; object-fit: cover; align-self: flex-start; margin-top: 5px;">
+                                <div class="bg-secondary text-white p-3 shadow-sm"
+                                    style="max-width: 85%; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; font-size: 0.95rem;">
+                                    Halo! Saya asisten virtual portofolio Fathul Khair. Tanyakan apa saja tentang
+                                    proyek, keahlian, atau pengalaman saya!
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chat Input -->
+                        <div class="p-3 border-top"
+                            style="border-color: rgba(255,255,255,0.05) !important; background: rgba(0,0,0,0.2);">
+                            <div class="input-group gap-2">
+                                <input type="text"
+                                    class="form-control glass-input border-0 bg-transparent text-white shadow-none ps-3"
+                                    placeholder="Ketik pesan..." id="chat-input" style="height: 50px;">
+                                <button class="btn btn-neon rounded-pill px-3" id="chat-send" style="height: 50px;">
+                                    <i class="fas fa-paper-plane"></i> <span class="d-none d-sm-inline">Kirim</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Fathul Khair</h4>
+                <p>Mahasiswa Teknik Informatika USU & Full-Stack Developer yang berfokus pada solusi digital berdampak.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/edm.fhl.khair?igsh=MWphcG5teDdsb29sZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Khair222" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/fathul-khair-070091413" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Navigasi</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="project.html">Proyek</a></li>
+                    <li><a href="skill.html">Keahlian</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <p>Email: fathulkhair393@gmail.com</p>
+                <p>Lokasi: Medan, Indonesia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fathul Khair. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
